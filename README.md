@@ -7,7 +7,7 @@ This was originally a fork of django-mailer-2 by SmileyChris.
 
 Example
 ---------
-```django
+```python
 from django.template.loader import render_to_string
 from django_mailer_plus import send_mail
 ..
@@ -18,7 +18,7 @@ send_mail('This is the subject',
 ```
 To clarify
 ---------
-```
+```python
 send_mail(subject, plain_mail, sender, (receiver, receiver2, etc,), attachment=[file1, file2, etc,], 
             html_message=html_mail)
 ```
